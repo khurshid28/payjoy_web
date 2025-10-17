@@ -15,7 +15,7 @@ const Feature = () => {
             headerInfo={{
               title: "Platforma avzalliklari",
               subtitle: "Platformaning boshqa platformalardan avzalliklari",
-              description: `Qulay grafik,past ko'rsatgichli ustamalar, 3-6-9-12-18 oylar mavjudligi,tezkor support,foiz va penyalarning yo'qligi`,
+              description: `Qulay grafik,past ko'rsatgichli ustamalar, 3-6-9-12 oylar mavjudligi,tezkor support,foiz va penyalarning yo'qligi`,
             }}
           />
           {/* <!-- Section Title End --> */}

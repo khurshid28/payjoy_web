@@ -85,7 +85,7 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                   до 36
+                   до 12
                   </h3>
                   <p>Месяцев</p>
                 </div>
@@ -98,7 +98,7 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                   до 50
+                   до 20
                   </h3>
                   <p>Миллионов</p>
                 </div>

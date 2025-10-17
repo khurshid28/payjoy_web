@@ -35,7 +35,7 @@ const Footer = () => {
                     // src="/images/logo/logo-light.svg"
                     // alt="Logo"
 
-                    src="/images/logo/payjoy.png"
+                    src="/images/logo/premiumnasiya.png"
                     alt="logo"
                     width={60}
                     height={20}
@@ -44,9 +44,9 @@ const Footer = () => {
                   <Image
                     // width={110}
                     // height={80}
-                    // src="/images/logo/payjoy.png"
+                    // src="/images/logo/premiumnasiya.png"
                     // src="/images/logo/logo-dark.svg"
-                    src="/images/logo/payjoy.png"
+                    src="/images/logo/premiumnasiya.png"
                     alt="logo"
                     width={60}
                     height={20}
@@ -67,7 +67,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  info@payjoy.uz
+                  info@premiumnasiya.uz
                 </a>
 
                 <br />
@@ -75,7 +75,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  +998 (95) 0642827
+                  +998 (94) 853 46 53
                 </a>
               </motion.div>
 

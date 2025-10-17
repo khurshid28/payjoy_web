@@ -40,7 +40,7 @@ const Header = () => {
           <a href="/">
             <Image
               // src="/images/logo/logo-dark.svg"
-               src="/images/logo/payjoy.png"
+               src="/images/logo/premiumnasiya.png"
               alt="logo"
               width={60}
               height={20}
@@ -51,7 +51,7 @@ const Header = () => {
               // alt="logo"
               // width={119.03}
               // height={30}
-              src="/images/logo/payjoy.png"
+              src="/images/logo/premiumnasiya.png"
               alt="logo"
               width={60}
               height={20}

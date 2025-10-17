@@ -14,9 +14,9 @@ import News from "@/components/News";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Payjoy - Nasiya savdo platformasi",
+  title: "Premium Nasiya - savdo platformasi",
   // other metadata
-  description: "Nasiya savdo platformasi"
+  description: "Premium Nasiya - savdo platformasi"
 };
 
 export default function Home() {

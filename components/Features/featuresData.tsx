@@ -32,7 +32,7 @@ const featuresData: Feature[] = [
 
     icon: "/images/icon/icon-02.svg",
    
-    title: "3-6-9-12-18 oylar mavjudligi",
+    title: "3-6-9-12 oylar mavjudligi",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },

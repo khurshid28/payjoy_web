@@ -20,7 +20,7 @@ const Hero = () => {
               </h4> */}
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
               <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                 Nasiya savdo
+                 Premium Nasiya
                 </span>
                 <br />
                 {"   "}
@@ -28,7 +28,7 @@ const Hero = () => {
                
               </h1>
               <p>
-              Payjoy - bu butun O'zbekiston bo'ylab hamkorlik nuqtalarda foydalanish mumkin bo'lgan, tovar va xizmatlarni muddatli to'lovga xarid qilishga mo'ljallangan xizmatdir.
+              Premium Nasiya - bu butun O'zbekiston bo'ylab hamkorlik nuqtalarda foydalanish mumkin bo'lgan, tovar va xizmatlarni muddatli to'lovga xarid qilishga mo'ljallangan xizmatdir.
               </p>
 
               <div className="mt-10">
