@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Docs Page - Solid SaaS Boilerplate",
 
   // other metadata
-  description: "This is Docs page for Solid Pro"
+  description: "This is Docs page for Solid Pro",
 };
 
 export default function DocsPage() {
@@ -24,14 +24,16 @@ export default function DocsPage() {
 
             <div className="w-full px-4 lg:w-3/4">
               <div className="News-details News-details-docs shadow-three dark:bg-gray-dark rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]">
-                <h1>Welcome to Startup Documentation</h1>
+                <h1>Ommaviy oferta </h1>
 
                 <p className="text-body-color dark:text-body-color-dark text-base">
-                  This document serves as a simple template to showcase a sample
-                  layout and format. It is solely created for demonstration
-                  purposes and is not intended for any official use.
+                  Mazkur hujjat “Premium Nasiya” xizmatidan foydalanish
+                  shartlarini belgilovchi ommaviy oferta hisoblanadi. Ushbu matn
+                  namunaviy shaklda taqdim etilgan bo‘lib, faqat namoyish va
+                  ma’lumot uchun mo‘ljallangan. U rasmiy huquqiy hujjat sifatida
+                  foydalanish uchun mo‘ljallanmagan.
                 </p>
-                <p className="text-body-color dark:text-body-color-dark text-base">
+                {/* <p className="text-body-color dark:text-body-color-dark text-base">
                   Please visit:{" "}
                   <b>
                     <a href="https://nextjstemplates.com/docs">
@@ -40,7 +42,16 @@ export default function DocsPage() {
                   </b>{" "}
                   to check out the real docs, setup guide and even video
                   instructions
-                </p>
+                </p> */}
+
+                <a
+                  href="/docs/ommaviy-oferta.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary underline hover:text-orange-500"
+                >
+                  PDF shaklida ochish
+                </a>
               </div>
             </div>
           </div>
