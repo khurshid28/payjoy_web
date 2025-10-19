@@ -75,12 +75,12 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/support",
   },
-  {
-    id: 5,
-    title: "Contact",
-    newTab: false,
-    path: "/#contact",
-  },
+  // {
+  //   id: 5,
+  //   title: "Contact",
+  //   newTab: false,
+  //   path: "/#contact",
+  // },
 ];
 
 export default menuData;

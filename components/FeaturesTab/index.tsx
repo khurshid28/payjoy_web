@@ -59,14 +59,16 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+              <div className="flex w-[50px] h-[50px] items-center justify-center rounded-full border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
-                  01
+                  1
                 </p>
               </div>
-              <div className="md:w-3/5 lg:w-auto">
+
+              
+              <div className="md:w-3/5 lg:w-2/3 ">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                Приходите в магазины наших партнеров
+                Hamkor do‘konlarimizga tashrif buyuring
                 </button>
               </div>
             </div>
@@ -78,14 +80,15 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+              <div className="flex w-[50px] h-[50px] items-center justify-center rounded-full border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
-                  02
+                  2
                 </p>
               </div>
-              <div className="md:w-3/5 lg:w-auto">
+              <div className="md:w-3/5 lg:w-2/3">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                Обратитесь к менеджеру магазина
+                Do‘kon menejeri sizga yordam beradi!
+
                 </button>
               </div>
             </div>
@@ -97,14 +100,15 @@ const FeaturesTab = () => {
                   : ""
               }`}
             >
-              <div className="flex h-12.5 w-12.5 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
+              <div className="flex w-[50px] h-[50px] items-center justify-center rounded-full border border-stroke dark:border-strokedark dark:bg-blacksection">
                 <p className="text-metatitle3 font-medium text-black dark:text-white">
-                  03
+                  3
                 </p>
               </div>
-              <div className="md:w-3/5 lg:w-auto">
+              <div className="md:w-3/5 lg:w-2/3">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                Получите свой товар или услугу
+                Mahsulotingizni hoziroq oling — to‘lovni keyin qiling!
+
                 </button>
               </div>
             </div>

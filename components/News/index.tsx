@@ -11,9 +11,10 @@ const News = async () => {
         <div className="animate_top mx-auto text-center">
           <SectionHeader
             headerInfo={{
-              title: `Yangililar va xabarlar`,
-              subtitle: `So'ngi yangililar va xabarlar`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              title: `Yangiliklar va xabarlar`,
+              subtitle: `So'ngi yangiliklar va xabarlar`,
+              description: ` Premium Nasiya platformasining eng so‘ngi yangiliklari bilan tanishing. 
+    Siz uchun foydali ma’lumotlar, aksiyalar va xizmatlardagi yangilanishlar shu yerda e’lon qilinadi.`,
             }}
           />
         </div>

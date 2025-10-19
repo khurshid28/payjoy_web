@@ -13,7 +13,7 @@ const Integration = () => {
             headerInfo={{
               title: `Hududlar`,
               subtitle: `Respublikaning hamma hududida biz bilan ishlang.`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              description: `O‘zbekistonning barcha hududlarida mijozlar bilan ishlang, savdo hajmini oshiring va biz bilan birgalikda o‘sing.`,
             }}
           />
 
@@ -59,9 +59,10 @@ const Integration = () => {
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
                 <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-07.svg"
+                  width={80}
+                  height={80}
+                  src="/images/brand/media.png"
+                  className="scale-[1.2]"
                   alt="Brand"
                 />
               </div>
@@ -106,9 +107,10 @@ const Integration = () => {
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
                 <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-08.svg"
+                  width={80}
+                  height={80}
+                  src="/images/brand/elmakon.png"
+                  className="scale-[1.2]"
                   alt="Brand"
                 />
               </div>
@@ -154,10 +156,11 @@ const Integration = () => {
               className="animate_top w-1/6"
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-09.svg"
+                 <Image
+                  width={80}
+                  height={80}
+                  src="/images/brand/artel.png"
+                  className="scale-[1.2]"
                   alt="Brand"
                 />
               </div>
@@ -221,11 +224,12 @@ const Integration = () => {
               viewport={{ once: true }}
               className="animate_top w-1/6"
             >
-              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
+              <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark ">
                 <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-10.svg"
+                  width={80}
+                  height={80}
+                  src="/images/brand/diskont.png"
+                  className="scale-[1.2] "
                   alt="Brand"
                 />
               </div>
@@ -272,9 +276,9 @@ const Integration = () => {
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
                 <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-11.svg"
+                  width={80}
+                  height={80}
+                  src="/images/brand/idea.png"
                   alt="Brand"
                 />
               </div>
@@ -320,10 +324,10 @@ const Integration = () => {
               className="animate_top w-1/6"
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
-                <Image
-                  width={50}
-                  height={50}
-                  src="./images/brand/brand-12.svg"
+                 <Image
+                  width={80}
+                  height={80}
+                  src="/images/brand/joybox.png"
                   alt="Brand"
                 />
               </div>

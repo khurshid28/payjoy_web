@@ -73,8 +73,7 @@ const About = () => {
                 xaridni amalga oshiring
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                Maishiy texnika va elektronika endi yanada qulay! Tez rasmiylashtirish, mos to‘lov rejasi va ishonchli yetkazib berish — barchasi siz uchun. Hech qanday ortiqcha to‘lovlarsiz, hoziroq xaridni boshlang.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
@@ -85,9 +84,9 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                   до 12
+                   12
                   </h3>
-                  <p>Месяцев</p>
+                  <p>oygacha</p>
                 </div>
               </div>
               <div className="mt-7.5 flex items-center gap-5">
@@ -98,9 +97,9 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                   до 20
+                   20 mln
                   </h3>
-                  <p>Миллионов</p>
+                  <p> so'mgacha</p>
                 </div>
               </div>
 
@@ -115,7 +114,7 @@ const About = () => {
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
                   0%
                   </h3>
-                  <p>Предоплаты</p>
+                  <p>boshlang‘ich to‘lov</p>
                 </div>
               </div>
             </motion.div>
@@ -148,13 +147,15 @@ const About = () => {
             >
             
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-              Комфортные {"   "}
+              Qulay  {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
-                покупки
+                xaridlar
                 </span>
               </h2>
               <p>
-              Сделайте свои покупки максимально комфортными с нашей рассрочкой. Оформите заказ, оплачивайте удобными частями и наслаждайтесь покупкой
+              {/* Сделайте свои покупки максимально комфортными с нашей рассрочкой. Оформите заказ, оплачивайте удобными частями и наслаждайтесь покупкой */}
+
+              Buyurtmangizni rasmiylashtiring, to‘lovni sizga mos qismlarga bo‘lib to‘lang va xariddan rohatlaning.
               </p>
            
 

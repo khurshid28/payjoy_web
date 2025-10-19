@@ -25,7 +25,7 @@ const SingleNewsPage = async () => {
                   <div className="relative">
                     <input
                       type="text"
-                      placeholder="Search Here..."
+                      placeholder="Qidiruv"
                       className="w-full rounded-lg border border-stroke px-6 py-4 shadow-solid-12 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                     />
 
@@ -48,7 +48,7 @@ const SingleNewsPage = async () => {
                 </form>
               </div>
 
-              <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
+              {/* <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
                 <h4 className="mb-7.5 text-2xl font-semibold text-black dark:text-white">
                   Categories
                 </h4>
@@ -70,7 +70,7 @@ const SingleNewsPage = async () => {
                     <a href="#">Rounded</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
 
               <RelatedPost />
             </div>
