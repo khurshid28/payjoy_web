@@ -28,7 +28,23 @@ const NewsItem = ({ News }: { News: News }) => {
         className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
       >
         <Link href={`news/`} className="relative block aspect-[368/239]">
-          <Image src={mainImage} alt={title} fill />
+          {/* <Image src={mainImage} alt={title} fill className="object-cover rounded-lg" /> */}
+
+          <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden">
+  {/* Rasm */}
+  <Image
+    src={mainImage}
+    alt={title}
+    fill
+    className="object-cover"
+  />
+
+  {/* Gradient overlay — yumshoq, rasm ko‘rinadi */}
+  <div className="absolute inset-0 pointer-events-none">
+    <div className="w-full h-full bg-gradient-to-b from-transparent to-white/40 dark:to-[#2F3657]/40" />
+  </div>
+</div>
+
         </Link>
 
         <div className="px-4">

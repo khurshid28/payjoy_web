@@ -82,18 +82,49 @@ const Hero = () => {
                 <div className=" relative aspect-[700/444] w-full">
                   <Image
                     className="shadow-solid-l dark:hidden"
-                    src="/images/hero/hero-light.svg"
+                    src="/images/banner.png"
                     alt="Hero"
                     fill
                   />
                   <Image
                     className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/hero-dark.svg"
+                    src="/images/banner.png"
                     alt="Hero"
                     fill
                   />
                 </div>
               </div>
+
+
+             
+             <div className="flex flex-wrap gap-4 mt-6">
+              <a
+                href="#"
+                className=" hover:opacity-90 transition"
+              >
+                <Image
+                  src="/images/download/iphone.svg"
+                  alt="App Store"
+                  width={200}
+                  height={100}
+                />
+              
+              </a>
+
+               <a
+                href="https://play.google.com/store/apps/details?id=com.premium_pay.premium_pay_seller"
+                className=" hover:opacity-90 transition"
+              >
+               <Image
+                  src="/images/download/android.svg"
+                  alt="Google Play"
+                  width={200}
+                  height={100}
+                />
+              
+              </a>
+              
+            </div>
             </div>
           </div>
         </div>
