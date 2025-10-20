@@ -28,13 +28,13 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
-              {/* <Image
+              {/* <img
                 src="/images/about/about-light-01.png"
                 alt="About"
                 className="dark:hidden"
                 fill
               />
-              <Image
+              <img
                 src="/images/about/about-dark-01.png"
                 alt="About"
                 className="hidden dark:block"
@@ -43,17 +43,16 @@ const About = () => {
 
               <div className="relative aspect-[1/1] w-full overflow-hidden rounded-2xl ">
                 {/* Rasm */}
-                <Image
+                <img
                   src="/images/about/about-1.png"
                   alt="About"
-                  fill
                   className="object-cover dark:hidden "
                 />
-                <Image
+                <img
                   src="/images/about/about-1.png"
                   alt="About"
-                  fill
-                  className="hidden object-cover dark:block"
+                  
+                  className="hidden object-cover dark:block "
                 />
 
                 {/* Gradient overlay (pastga yumshoq fade) */}
@@ -201,13 +200,13 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
-              {/* <Image
+              {/* <img
                 src="./images/about/about-light-02.svg"
                 alt="About"
                 className="dark:hidden"
                 fill
               />
-              <Image
+              <img
                 src="./images/about/about-dark-02.svg"
                 alt="About"
                 className="hidden dark:block"
@@ -216,16 +215,14 @@ const About = () => {
 
               <div className="relative aspect-[1/1] w-full overflow-hidden rounded-2xl">
                 {/* Rasm */}
-                <Image
+                <img
                   src="/images/about/about-2.png"
                   alt="About"
-                  fill
                   className="z-0 object-cover dark:hidden"
                 />
-                <Image
+                <img
                   src="/images/about/about-2.png"
                   alt="About"
-                  fill
                   className="z-0 hidden object-cover dark:block"
                 />
 

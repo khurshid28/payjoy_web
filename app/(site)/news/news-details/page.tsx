@@ -79,10 +79,10 @@ const SingleNewsPage = async () => {
               <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
                 <div className="mb-10 w-full overflow-hidden ">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
-                    <Image
+                    <img
                       src={"/images/news/news-01.png"}
                       alt="Kobe Steel plant that supplied"
-                      fill
+                      
                       className="rounded-md object-cover object-center"
                     />
                   </div>
@@ -132,13 +132,13 @@ const SingleNewsPage = async () => {
                   </p>
 
                   <div className="flex flex-wrap gap-5">
-                    <Image
+                    <img
                       src={"/images/news/news-01.png"}
                       width={350}
                       height={200}
                       alt="image"
                     />
-                    <Image
+                    <img
                       src={"/images/news/news-02.png"}
                       width={350}
                       height={200}

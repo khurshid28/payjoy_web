@@ -10,7 +10,7 @@ const ThemeToggler = () => {
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       className="bg-gray-2 dark:bg-dark-bg absolute right-17 mr-1.5 flex cursor-pointer items-center justify-center rounded-full text-black dark:text-white lg:static"
     >
-      <Image
+      <img
         src="/images/icon/icon-moon.svg"
         alt="logo"
         width={21}
@@ -18,7 +18,7 @@ const ThemeToggler = () => {
         className="dark:hidden"
       />
 
-      <Image
+      <img
         src="/images/icon/icon-sun.svg"
         alt="logo"
         width={22}

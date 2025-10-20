@@ -28,14 +28,14 @@ const NewsItem = ({ News }: { News: News }) => {
         className="animate_top rounded-lg bg-white p-4 pb-9 shadow-solid-8 dark:bg-blacksection"
       >
         <Link href={`news/`} className="relative block aspect-[368/239]">
-          {/* <Image src={mainImage} alt={title} fill className="object-cover rounded-lg" /> */}
+          {/* <img src={mainImage} alt={title} fill className="object-cover rounded-lg" /> */}
 
           <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden">
   {/* Rasm */}
-  <Image
+  <img
     src={mainImage}
     alt={title}
-    fill
+    
     className="object-cover"
   />
 

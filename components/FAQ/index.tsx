@@ -18,17 +18,17 @@ const FAQ = () => {
       <section className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
         <div className="relative mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="absolute -bottom-16 -z-1 h-full w-full">
-            <Image
-              fill
+            <img
+              
               src="/images/shape/shape-dotted-light.svg"
               alt="Dotted"
-              className="dark:hidden"
+              className="dark:hidden object-fill"
             />
-            <Image
-              fill
+            <img
+              
               src="/images/shape/shape-dotted-light.svg"
               alt="Dotted"
-              className="hidden dark:block"
+              className="hidden dark:block object-fill"
             />
           </div>
           <div className="flex flex-wrap gap-8 md:flex-nowrap md:items-center xl:gap-32.5">

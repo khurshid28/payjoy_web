@@ -15,15 +15,15 @@ const FeaturesTab = () => {
       <section className="relative pb-20 pt-18.5 lg:pb-22.5">
         <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
-            <Image
-              fill
-              className="dark:hidden"
+            <img
+              
+              className="dark:hidden object-fill"
               src="/images/shape/shape-dotted-light.svg"
               alt="Dotted Shape"
             />
-            <Image
-              fill
-              className="hidden dark:block"
+            <img
+              
+              className="hidden dark:block object-fill"
               src="/images/shape/shape-dotted-dark.svg"
               alt="Dotted Shape"
             />

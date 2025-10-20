@@ -16,8 +16,8 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
           {/* <p className="w-11/12">{desc2}</p> */}
         </div>
         {/* <div className="relative mx-auto hidden aspect-[562/366] max-w-[550px] md:block md:w-1/2">
-          <Image src={image} alt={title} fill className="dark:hidden" />
-          <Image
+          <img src={image} alt={title} fill className="dark:hidden" />
+          <img
             src={imageDark}
             alt={title}
             fill
@@ -32,13 +32,13 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
                dark:bg-[linear-gradient(to_bottom,_#343D63_20%,_#2F3657_90%)]"
   >
     <div className="relative aspect-[562/366] overflow-hidden rounded-lg">
-      <Image
+      <img
         src={image}
         alt={title}
         fill
         className="object-cover dark:hidden"
       />
-      <Image
+      <img
         src={imageDark}
         alt={title}
         fill
@@ -51,17 +51,17 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
   <div className="p-10 rounded-xl overflow-hidden ">
     <div className="relative aspect-[562/366] rounded-lg overflow-hidden">
       {/* Rasm */}
-      <Image
+      <img
         src={image}
         alt={title}
-        fill
+        
         className="object-cover transition-all duration-500 dark:hidden"
       />
-      <Image
+      <img
         src={imageDark}
         alt={title}
-        fill
-        className="hidden dark:block object-cover transition-all duration-500"
+        
+        className="hidden dark:block object-cover transition-all duration-500 "
       />
 
       {/* Yumshoq, qisqa oqish effekti */}

@@ -29,7 +29,7 @@ const Footer = () => {
                 className="animate_top w-1/2 lg:w-1/4"
               >
                 <a href="/" className="relative">
-                  <Image
+                  <img
                     // width={110}
                     // height={80}
                     // src="/images/logo/logo-light.svg"
@@ -41,7 +41,7 @@ const Footer = () => {
                     height={20}
                     className="dark:hidden"
                   />
-                  <Image
+                  <img
                     // width={110}
                     // height={80}
                     // src="/images/logo/premiumnasiya.png"

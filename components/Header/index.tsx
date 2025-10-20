@@ -38,24 +38,24 @@ const Header = () => {
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
-            <Image
+            <img
               // src="/images/logo/logo-dark.svg"
                src="/images/logo/premiumnasiya.png"
               alt="logo"
-              width={60}
-              height={20}
-              className="hidden w-full dark:block"
+              // width={60}
+              // height={20}
+              className="hidden dark:block w-[60px]"
             />
-            <Image
+            <img
               // src="/images/logo/logo-light.svg"
               // alt="logo"
               // width={119.03}
               // height={30}
               src="/images/logo/premiumnasiya.png"
               alt="logo"
-              width={60}
-              height={20}
-              className="w-full dark:hidden"
+              // width={60}
+              // height={20}
+              className="w-full dark:hidden w-[60px]"
             />
           </a>
 
