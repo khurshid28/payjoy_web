@@ -3,10 +3,10 @@ import NewsItem from "@/components/News/NewsItem";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "News Page - Solid SaaS Boilerplate",
+  title: "Yangiliklar - Premium Nasiya",
 
   // other metadata
-  description: "This is News page for Solid Pro"
+  description: "Yangiliklar - Premium Nasiya"
 };
 
 const NewsPage = async () => {
