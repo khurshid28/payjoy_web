@@ -4,6 +4,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: "export",
+  experimental: {
+    appDir: true, // agar App router ishlatilsa
+  },
   images: {
     domains: ["localhost"],
     remotePatterns: [
