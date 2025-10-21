@@ -10,7 +10,7 @@ export default function Head() {
 
       <link rel="icon" href="/favicon.ico?v=2" />
       <link rel="shortcut icon" href="/favicon.ico?v=2" />
-      <link rel="apple-touch-icon" href="/favicon.ico?v=2" />
+      <link rel="apple-touch-icon" href="/favicon.png?v=2" />
 
       <meta
         name="description"
@@ -19,7 +19,7 @@ export default function Head() {
 
       <meta
         name="keywords"
-        content="premium nasiya, nasiya, premium,  tovar, xizmat, muddatli to‘lov, to'lov,  to‘lov, o‘zbekiston"
+        content="premium nasiya, nasiya, premium,premiumnasiya  tovar, xizmat, muddatli to‘lov, to'lov,  to‘lov, o‘zbekiston"
       />
 
       <link rel="icon" href="/images/premiumnasiya.ico" />
