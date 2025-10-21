@@ -46,13 +46,13 @@ const About = () => {
                 <img
                   src="/images/about/about-1.png"
                   alt="About"
-                  className="object-cover dark:hidden "
+                  className="absolute inset-0 h-full w-full object-cover dark:hidden "
                 />
                 <img
                   src="/images/about/about-1.png"
                   alt="About"
                   
-                  className="hidden object-cover dark:block "
+                  className="hidden absolute inset-0 h-full w-full object-cover dark:block "
                 />
 
                 {/* Gradient overlay (pastga yumshoq fade) */}

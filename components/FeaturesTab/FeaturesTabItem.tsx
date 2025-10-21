@@ -49,19 +49,20 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
 </div> */}
 <div className="relative mx-auto hidden aspect-[562/366] max-w-[550px] md:block md:w-1/2">
   <div className="p-10 rounded-xl overflow-hidden ">
-    <div className="relative aspect-[562/366] rounded-lg overflow-hidden">
+    <div className="relative aspect-[562/530] rounded-lg overflow-hidden">
       {/* Rasm */}
       <img
         src={image}
         alt={title}
         
-        className="object-cover transition-all duration-500 dark:hidden"
+        className="absolute inset-0 h-full w-full object-cover object-top transition-all duration-500 dark:hidden"
       />
       <img
         src={imageDark}
         alt={title}
-        
-        className="hidden dark:block object-cover transition-all duration-500 "
+        className="hidden dark:block absolute inset-0 h-full w-full object-cover  object-top transition-all duration-500"
+      
+     
       />
 
       {/* Yumshoq, qisqa oqish effekti */}

@@ -20,16 +20,17 @@ const Hero = () => {
                 🔥 Solid - A Complete SaaS Web Template
               </h4> */}
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-              <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                 Premium Nasiya
+                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
+                  Premium Nasiya
                 </span>
                 <br />
                 {"   "}
-                 platformasiga xush kelibsiz !!!
-               
+                platformasiga xush kelibsiz !!!
               </h1>
               <p>
-              Premium Nasiya - bu butun O'zbekiston bo'ylab hamkorlik nuqtalarda foydalanish mumkin bo'lgan, tovar va xizmatlarni muddatli to'lovga xarid qilishga mo'ljallangan xizmatdir.
+                Premium Nasiya - bu butun O'zbekiston bo'ylab hamkorlik
+                nuqtalarda foydalanish mumkin bo'lgan, tovar va xizmatlarni
+                muddatli to'lovga xarid qilishga mo'ljallangan xizmatdir.
               </p>
 
               <div className="mt-10">
@@ -43,9 +44,9 @@ const Hero = () => {
                       className="rounded-full border border-stroke px-6 py-2.5 shadow-solid-2 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
                     /> */}
                     <Link
-                  href="/support"
-                  className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
-                >
+                      href="/support"
+                      className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
+                    >
                       Biz bilan tezkor aloqa
                     </Link>
                   </div>
@@ -54,6 +55,29 @@ const Hero = () => {
                 <p className="mt-5 text-black dark:text-white">
                   Tezkor 24/7 soatlik xizmat ko'rsatamiz
                 </p>
+
+                <div className="mt-6 flex flex-wrap gap-4">
+                  <a href="#" className=" transition hover:opacity-90">
+                    <img
+                      src="/images/download/iphone.svg"
+                      alt="App Store"
+                      width={200}
+                      height={100}
+                    />
+                  </a>
+
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.premium_pay.premium_pay_seller"
+                    className=" transition hover:opacity-90"
+                  >
+                    <img
+                      src="/images/download/android.svg"
+                      alt="Google Play"
+                      width={200}
+                      height={100}
+                    />
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -82,54 +106,23 @@ const Hero = () => {
                 />
                 <div className=" relative aspect-[700/444] w-full rounded-xl ">
                   <Image
-                    className="shadow-solid-l dark:hidden object-fill rounded-xl "
+                    className="rounded-xl object-fill shadow-solid-l dark:hidden "
                     src="/gifs/banner-light.gif"
                     alt="Hero"
                     layout="fill"
                     objectFit="cover"
-                    unoptimized 
+                    unoptimized
                   />
                   <Image
-                    className="hidden shadow-solid-l dark:block object-fill rounded-xl"
+                    className="hidden rounded-xl object-fill shadow-solid-l dark:block"
                     src="/gifs/banner-dark.gif"
                     alt="Hero"
                     layout="fill"
                     objectFit="cover"
-                    unoptimized 
+                    unoptimized
                   />
                 </div>
               </div>
-
-
-             
-             <div className="flex flex-wrap gap-4 mt-6">
-              <a
-                href="#"
-                className=" hover:opacity-90 transition"
-              >
-                <img
-                  src="/images/download/iphone.svg"
-                  alt="App Store"
-                  width={200}
-                  height={100}
-                />
-              
-              </a>
-
-               <a
-                href="https://play.google.com/store/apps/details?id=com.premium_pay.premium_pay_seller"
-                className=" hover:opacity-90 transition"
-              >
-               <img
-                  src="/images/download/android.svg"
-                  alt="Google Play"
-                  width={200}
-                  height={100}
-                />
-              
-              </a>
-              
-            </div>
             </div>
           </div>
         </div>

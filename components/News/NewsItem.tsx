@@ -30,21 +30,15 @@ const NewsItem = ({ News }: { News: News }) => {
         <Link href={`news/`} className="relative block aspect-[368/239]">
           {/* <img src={mainImage} alt={title} fill className="object-cover rounded-lg" /> */}
 
-          <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden">
-  {/* Rasm */}
-  <img
-    src={mainImage}
-    alt={title}
-    
-    className="object-cover"
-  />
+          <div className="relative aspect-[4/5] w-full overflow-hidden rounded-lg">
+            {/* Rasm */}
+            <img src={mainImage} alt={title} className="absolute inset-0 h-full w-full object-cover object-top" />
 
-  {/* Gradient overlay — yumshoq, rasm ko‘rinadi */}
-  <div className="absolute inset-0 pointer-events-none">
-    <div className="w-full h-full bg-gradient-to-b from-transparent to-white/40 dark:to-[#2F3657]/40" />
-  </div>
-</div>
-
+            {/* Gradient overlay — yumshoq, rasm ko‘rinadi */}
+            <div className="pointer-events-none absolute inset-0">
+              <div className="h-full w-full bg-gradient-to-b from-transparent to-white/40 dark:to-[#2F3657]/40" />
+            </div>
+          </div>
         </Link>
 
         <div className="px-4">
