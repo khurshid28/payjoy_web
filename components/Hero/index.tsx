@@ -80,18 +80,22 @@ const Hero = () => {
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
-                <div className=" relative aspect-[700/444] w-full">
-                  <img
-                    className="shadow-solid-l dark:hidden object-fill"
-                    src="/images/banner.png"
+                <div className=" relative aspect-[700/444] w-full rounded-xl ">
+                  <Image
+                    className="shadow-solid-l dark:hidden object-fill rounded-xl "
+                    src="/gifs/banner-light.gif"
                     alt="Hero"
-                    
+                    layout="fill"
+                    objectFit="cover"
+                    unoptimized 
                   />
-                  <img
-                    className="hidden shadow-solid-l dark:block object-fill"
-                    src="/images/banner.png"
+                  <Image
+                    className="hidden shadow-solid-l dark:block object-fill rounded-xl"
+                    src="/gifs/banner-dark.gif"
                     alt="Hero"
-                    
+                    layout="fill"
+                    objectFit="cover"
+                    unoptimized 
                   />
                 </div>
               </div>
