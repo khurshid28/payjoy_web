@@ -8,4 +8,8 @@
     <loc>https://premiumnasiya.uz/about</loc>
     <priority>0.8</priority>
   </url>
+
+  <url>
+    <loc>https://premiumnasiya.uz/support</loc>
+    <priority>0.8</priority>
 </urlset>

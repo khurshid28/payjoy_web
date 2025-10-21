@@ -8,9 +8,11 @@ export default function Head() {
         content="QNMcACjd1_T1nirEiGNIANzfrXuHlQuFRTCISPcsOO0"
       />
 
-      <link rel="icon" href="/favicon.ico?v=2" />
-      <link rel="shortcut icon" href="/favicon.ico?v=2" />
-      <link rel="apple-touch-icon" href="/favicon.png?v=2" />
+      <link rel="icon" href="/favicon.ico?v=3" />
+        <link rel="icon" type="image/png" href="/favicon.png?v=3" />
+
+      <link rel="shortcut icon" href="/favicon.ico?v=3" />
+      <link rel="apple-touch-icon" href="/favicon.png?v=3" />
 
       <meta
         name="description"
