@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.premium_pay.premium_pay_seller",
+      "sha256_cert_fingerprints": [
+        "6C:48:7B:A3:61:1F:A5:BD:0E:29:9F:02:20:AD:BA:D3:90:98:B1:16:47:2E:66:36:76:B6:D7:88:A3:4B:0F:96"
+      ]
+    }
+  }
+]
